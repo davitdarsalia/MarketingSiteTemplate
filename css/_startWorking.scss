@@ -1,0 +1,38 @@
+.startWorking {
+  max-width: 100vw;
+  height: 49.55vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(249.78deg, #35d3ff -0.64%, #a963fb 103.6%);
+}
+
+.innerWrapper {
+  width: 21.765vw;
+  height: 19.47vw;
+  @include flexColumn;
+  h3 {
+    font-weight: 700;
+    font-size: 0.625vw;
+    color: white;
+  }
+  h2 {
+    font-size: 2.5vw;
+    color: white;
+    width: 21.565vw;
+  }
+  p {
+    font-size: 1.04vw;
+    color: white;
+  }
+  button {
+    width: 10.1vw;
+    height: 3.17vw;
+    border-radius: 1.04vw;
+    font-size: 0.83vw;
+    font-weight: bold;
+    color: #42c6fe;
+    transition: 1s;
+  }
+}

@@ -1,0 +1,51 @@
+.explaining {
+  padding-top: 10.1vw;
+  max-width: 100vw;
+  height: 97.58vw;
+  background: linear-gradient(45deg, #62a8fd, #8c80fc);
+
+  h3 {
+    font-weight: 700;
+    font-size: 0.625vw;
+    color: #ffffff;
+  }
+  h4 {
+    font-size: 2.5vw;
+    color: #ffffff;
+    margin-bottom: 1.3vw;
+  }
+
+  article {
+    text-align: center;
+    font-size: 1.04vw;
+    color: #ffffff;
+    margin-bottom: 2.34vw;
+  }
+}
+.explanationCards {
+  @include flexColumn;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 1vw;
+  margin-top: 2.343vw;
+  border-left: 1px solid rgba(0, 0, 0, 0.137);
+  border-left: 1px solid rgba(0, 0, 0, 0.137);
+  transition: 1.2s;
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.301);
+  @include flexRow;
+  &:hover {
+    transform: scale(1.1);
+  }
+  h4 {
+    font-size: 1.14vw;
+    color: #3b3e43;
+  }
+  p {
+    font-size: 0.8vw;
+    color: #595e64;
+  }
+}
+.optionExplanation {
+  width: 27.6vw;
+}

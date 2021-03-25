@@ -1,0 +1,19 @@
+@import "./normalize";
+@import "./variables";
+@import "./header";
+@import "./optionsSection";
+@import "./explainingSection";
+@import "./brands";
+@import "./startWorking";
+@import "./footer";
+
+.header {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #36bdff;
+  position: relative;
+  @include flexRow;
+}
+.logo {
+  display: block;
+}

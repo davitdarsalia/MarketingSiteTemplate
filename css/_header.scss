@@ -1,0 +1,101 @@
+.mainSection {
+  max-width: 100vw;
+  height: 100vh;
+  background: linear-gradient(249.78deg, #35d3ff -0.64%, #a963fb 103.6%);
+  position: relative;
+  @include flexColumn;
+  .header {
+    margin-top: 2.08vw;
+    width: 93.75vw;
+    height: 4.081vw;
+    @include flexRow;
+  }
+  .logo {
+    display: block;
+  }
+  .menu {
+    margin-left: 2vw;
+    width: 35.57vw;
+    height: 8.7vh;
+  }
+  .menuItems {
+    @include flexRow;
+  }
+  .menuItem {
+    width: 100%;
+    height: 100%;
+    font-size: 0.83vw;
+    color: #fff;
+    margin-top: 3vh;
+    transition: 1s;
+    // Hover
+    &:hover {
+      scale: (1.2);
+    }
+  }
+  .getStartedBtn {
+    width: 10.1vw;
+    height: 3.17vw;
+    border-radius: 1.04vw;
+    font-size: 0.83vw;
+    font-weight: bold;
+    color: #42c6fe;
+    transition: 1s;
+    // Hover
+    &:hover {
+      scale: (1.2);
+    }
+  }
+
+  // Svg Image
+
+  .statisticsShow {
+    width: 64.35vw;
+    height: 40.93vw;
+    position: absolute;
+    top: 27.13vw;
+    background: url(statistics.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+// Main Content Section
+
+.mainContent {
+  width: 54.75vw;
+  height: 12.08vw;
+  position: absolute;
+  top: 10.41vw;
+  @include flexColumn;
+  h2 {
+    font-weight: 500;
+    font-size: 3.54vw;
+    color: #fff;
+  }
+  h4 {
+    font-size: 1.04vw;
+    color: #fff;
+  }
+
+  button {
+    width: 10.1vw;
+    height: 3.17vw;
+    margin-right: 0.8vw;
+    border-radius: 1.04vw;
+    font-size: 0.83vw;
+    font-weight: bold;
+    color: #42c6fe;
+    transition: 1s;
+    // Hover
+    &:hover {
+      scale: (1.2);
+    }
+  }
+}
+
+@media screen and (max-height: 960) {
+  .statisticsShow {
+    top: 24.13vw;
+  }
+} ;

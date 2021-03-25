@@ -1,0 +1,52 @@
+.footer {
+  width: 100vw;
+  height: 12.55vw;
+  background-color: #0d0d0d;
+  padding-top: 1.2vw;
+  padding-bottom: 2vw;
+  @include flexColumn;
+  .footerWrapper {
+    width: 68.4vw;
+    height: 7.15vw;
+    @include flexRow;
+    border-bottom: 1px solid gray;
+  }
+  .menu {
+    margin-left: 2vw;
+    width: 35.57vw;
+    height: 8.7vh;
+  }
+  .menuItems {
+    @include flexRow;
+  }
+  .menuItem {
+    font-size: 0.83vw;
+    color: #fff;
+    margin-top: 3vh;
+    transition: 1s;
+    // Hover
+    &:hover {
+      scale: (1.2);
+    }
+  }
+  .socIcons {
+    @include flexRow;
+    width: 5.2vw;
+  }
+  .copyRightSymbols {
+    @include flexRow;
+    width: 68.4vw;
+    h4 {
+      font-size: 0.78vw;
+      color: white;
+    }
+  }
+  .policy {
+    width: 12.2vw;
+    @include flexRow;
+    h5 {
+      font-size: 0.78vw;
+      color: white;
+    }
+  }
+}

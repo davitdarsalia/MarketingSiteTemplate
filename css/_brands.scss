@@ -1,0 +1,45 @@
+.brands {
+  max-width: 100vw;
+  height: 39.2vw;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brandsWrapper {
+  width: 60.761vw;
+  height: 26.14vw;
+  @include flexColumn;
+  h3 {
+    font-size: 0.625vw;
+    color: #00a077;
+  }
+  h2 {
+    color: #3b3e43;
+    font-weight: 500;
+    font-size: 2.5vw;
+    width: 45.5vw;
+    text-align: center;
+  }
+  p {
+    font-size: 0.83vw;
+    color: #3b3e43;
+    width: 19.43vw;
+    text-align: center;
+  }
+  img {
+    transition: 1s;
+
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+}
+.brandsListUpper {
+  @include flexRow;
+  width: 60.9vw;
+}
+.brandsListDowner {
+  @include flexRow;
+  width: 60.9vw;
+}

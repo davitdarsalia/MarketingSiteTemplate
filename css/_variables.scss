@@ -1,0 +1,16 @@
+@mixin flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin backgroundProperties {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

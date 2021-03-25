@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0) !important;
+}

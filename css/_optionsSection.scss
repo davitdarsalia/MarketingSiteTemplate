@@ -1,0 +1,73 @@
+.options {
+  margin-top: 23.58vw;
+  max-width: 100vw;
+  height: 49vw;
+  background-color: #f9f8ff;
+  @include flexColumn;
+  position: relative;
+
+  span {
+    color: #000000;
+  }
+  .circle {
+    position: absolute;
+    right: 0;
+    height: 35vw;
+  }
+
+  .mainHeader {
+    font-size: 2.5vw;
+    color: #595e64;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 1.14vw;
+    color: #595e64;
+  }
+
+  h4 {
+    font-size: 0.83vw;
+    color: #595e64;
+  }
+
+  .optionsWrapper {
+    margin: auto;
+    width: 19.1vw;
+    height: 35.78vw;
+    position: absolute;
+    left: 20vw;
+    top: 9.05vw;
+  }
+
+  .upper {
+    width: 60.72vw;
+    height: 17.44vw;
+    margin-bottom: 1vw;
+    @include flexRow;
+  }
+  .downer {
+    width: 60.72vw;
+    height: 17.44vw;
+    @include flexRow;
+  }
+  .option {
+    @include flexColumn;
+    width: 19.16vw;
+    height: 17.44vw;
+    border-radius: 1vw;
+    background-color: #ffffff;
+    padding: 2.62vw 2.14vw;
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.144);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.144);
+    transition: 1s;
+    img {
+      width: 1.45vw;
+      height: 1.45vw;
+    }
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0.26vw 0.52vw #595e64;
+      z-index: 33;
+    }
+  }
+}
