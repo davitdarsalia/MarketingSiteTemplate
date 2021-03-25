@@ -1,1 +1,1 @@
-# VizibusAcademy
+https://vizibus.netlify.app/
