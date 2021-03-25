@@ -1,3 +1,3 @@
 Preview :
 
-https://vizibus.netlify.app/
+https://marketingwebtemplate.netlify.app/
